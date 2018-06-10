@@ -15,4 +15,5 @@ end
 def input_to_index(input)
     puts "You entered #{input}"
     input = input-1
+    return input
 end
