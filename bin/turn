@@ -10,4 +10,3 @@ display_board(board)
 turn(board)
 number = gets.strip.to_i
 
-puts number
