@@ -1,3 +1,7 @@
+def input_to_index(input)
+  input -= 1
+  return input
+
 def display_board(board)
     puts " #{board[0]} " + "|"+ " #{board[1]} " + "|"+  + " #{board[2]} "
     puts "-----------"
