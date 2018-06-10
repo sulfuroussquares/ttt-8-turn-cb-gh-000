@@ -9,4 +9,4 @@ display_board(board)
 
 turn(board)
 number = gets.strip
-puts number
+puts input_to_index(number)
