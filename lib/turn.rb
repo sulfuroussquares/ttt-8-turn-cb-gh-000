@@ -9,21 +9,3 @@ def display_board(board)
     puts "-----------"
     puts " #{board[6]} " + "|"+ " #{board[7]} " + "|"+  + " #{board[8]} "
 end
-=begin
-def valid_move?(board, index)
-  if (index.between?(0,8))
-    if (position_taken?(board, index) == false)
-      return true
-    end
-  end
-end
-=end
-# re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
-=begin def position_taken?(board, index)
-  if (board[index] == "" || board[index] == " " || board[index] == nil)
-    return false
-  else
-    return true
-  end
-end
-=end
