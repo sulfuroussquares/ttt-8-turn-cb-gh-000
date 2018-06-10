@@ -15,5 +15,5 @@ def turn(board)
   puts "Please enter 1-9:"
   number = gets.strip
   number = input_to_index(number)
-  puts "You put: #{number}"
+  puts number
 end
