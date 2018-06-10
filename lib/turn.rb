@@ -7,8 +7,7 @@ def display_board(board)
 end
 
 def input_to_index(number)
-  new_number = number-1
-  return new_number
+  return new_number -= 1
 end
 
 def turn(board)
